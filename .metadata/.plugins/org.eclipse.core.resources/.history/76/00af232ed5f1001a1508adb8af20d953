@@ -1,0 +1,18 @@
+/*
+ * Escreva  um sistema que leia três números inteiros e positivos (A, B, C) e calcule a seguinte expressão:
+ * D= (R + S)/ 2
+ * R= (A + B) ^ 2
+ * S= (B + C) ^ 2 
+ */
+
+package Exercicios;
+import java.util.Scanner;
+
+public class ExercicioQuatro {
+	public static void main(String args[]) {
+		float A, B, C, D, R, S;
+		Scanner scan= new Scanner(System.in);
+	
+		System.out.printf("");
+	}
+}

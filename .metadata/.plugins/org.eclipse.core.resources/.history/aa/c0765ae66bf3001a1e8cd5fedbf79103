@@ -22,7 +22,7 @@ public class Exercicio04 {
 		Scanner scan= new Scanner(System.in);
 		int i= 0, idade, sexo, estado, pessoasC= 0, mulheresN= 0, homensA= 0, outrosC= 0, pessoasN= 0, calmosMenor= 0; 
 		
-		while (i < 150) {
+		while (i < 5) {
 			System.out.printf("\nDigite sua idade: ");
 			idade= scan.nextInt();
 			System.out.println("Entre com seu sexo\n1-Feminino | 2-Masculino | 3-Outros");

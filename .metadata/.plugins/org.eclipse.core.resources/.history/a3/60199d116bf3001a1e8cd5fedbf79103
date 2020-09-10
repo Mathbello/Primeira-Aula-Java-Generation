@@ -1,0 +1,35 @@
+/*
+ * Escrever um programa que receba vários números inteiros no teclado. E no
+ * final imprimir a média dos números múltiplos de 3. Para sair digitar
+ * 0(zero).(DO...WHILE)
+ */
+
+package ExerciciosRepetição;
+
+import java.util.Scanner;
+
+public class Exercicio06 {
+	public static void main(String args[]) {
+		Scanner scan= new Scanner(System.in);
+		int num, soma= 0, count= 0;
+		float media;
+		
+		System.out.printf("Insira um número: ");
+		num= scan.nextInt();
+		
+		do {
+			if (num%3 == 0) {
+				count++;
+				soma += num;
+			}
+			System.out.printf("Insira um número: ");
+			num= scan.nextInt();
+		}
+		while(num != 0);
+		
+		media= soma / count;
+		
+		System.out.println("A média dos múltiplos de 3 é: " + media);
+	}
+
+}

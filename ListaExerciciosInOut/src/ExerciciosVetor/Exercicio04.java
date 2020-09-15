@@ -52,7 +52,7 @@ public class Exercicio04 {
 				System.out.println();
 				for(i= 0; i<2; i++) {
 					for(j= 0; j<2; j++) {
-						matrizSoma[i][j]= matriz1[i][j] - matriz2[i][j];
+						matrizSub[i][j]= matriz1[i][j] - matriz2[i][j];
 						}
 					}
 				
@@ -124,6 +124,6 @@ public class Exercicio04 {
 				System.out.println();
 				System.out.printf("Opção inválida, programa encerrado");
 			break;				
-		}
+		}		
 	}
 }

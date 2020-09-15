@@ -26,9 +26,9 @@ public class Exercicio01 {
 			System.out.println("["+i+"]");
 		}
 		
-		for(int i= 0; i<6; i++) {
+		/*for(int i= 0; i<6; i++) {
 			System.out.println("A posição "+ i + " é " +A[i]);
-		}
+		}*/
 	}
 
 }

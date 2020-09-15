@@ -19,6 +19,8 @@ public class Exercicio02 {
 		int[] vetor= new int[6];
 		int i, somaPar= 0, countImpar= 0;
 		
+		
+		
 		for(i= 0; i<6; i++) {
 			System.out.printf("Insira um valor: ");
 			vetor[i]= scan.nextInt();
@@ -31,14 +33,15 @@ public class Exercicio02 {
 			}
 			else {
 				impares.add (vetor[i]);
-				countImpar++;
+				//countImpar++;
+				
 			}
 		}
 		
 		System.out.println("\nOs números pares digitados foram: " + pares);
 		System.out.println("A soma dos números pares é: " + somaPar);
 		System.out.println("Os números ípares digitados foram: " + impares);
-		System.out.println("Foi digitados a quantidade de " + countImpar + " números ímpares.");
+		System.out.println("Foi digitados a quantidade de " + impares.size() + " números ímpares.");
 	}
 
 }

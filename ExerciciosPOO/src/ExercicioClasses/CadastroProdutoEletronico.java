@@ -27,6 +27,5 @@ public class CadastroProdutoEletronico {
 			((ProdutoEletronico) i).getInfo();
 			System.out.println("---------------------");
 		}
-		
 	}
 }
